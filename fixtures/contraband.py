@@ -1,0 +1,1 @@
+CUBAN_CIGARS = 'cohiba'
