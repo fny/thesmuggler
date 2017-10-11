@@ -1,4 +1,4 @@
-from smuggler import smuggle
+from thesmuggler import smuggle
 
 
 def test_smuggle_from_relative_path():

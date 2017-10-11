@@ -1,17 +1,17 @@
-Smuggler 🚬
-===========
+The Smuggler 🚬
+===============
 
-.. image:: https://travis-ci.org/fny/smuggler.svg?branch=master
-   :target: https://travis-ci.org/fny/smuggler
+.. image:: https://travis-ci.org/fny/thesmuggler.svg?branch=master
+   :target: https://travis-ci.org/fny/thesmuggler
    :alt: Build Status
 
-.. image:: https://badge.fury.io/py/smuggler.svg
-   :target: https://pypi.python.org/pypi/smuggler
+.. image:: https://badge.fury.io/py/thesmuggler.svg
+   :target: https://pypi.python.org/pypi/thesmuggler
    :alt: Smuggler on PyPI
 
 Sidestep :code:`import` and load Python files as relative paths.
 
-Intended for one-off imports (e.g. global configuration). Currently, :code:`smuggler` can't import files that import other local packages, but you can :code:`smuggle` files that
+Intended for one-off imports (e.g. global configuration). Currently, :code:`thesmuggler` can't import files that import other local packages, but you can :code:`thesmuggle` files that
 have already smuggled other files.
 
 Tested and working on Python 2.7 and up.
@@ -19,11 +19,11 @@ Tested and working on Python 2.7 and up.
 Usage
 -----
 
-:code:`pip install smuggler`, then:
+:code:`pip install thesmuggler`, then:
 
 .. code:: python
 
-    from smuggler import smuggle
+    from thesmuggler import smuggle
 
     # À la `import weapons`
     weapons = smuggle('weapons.py')

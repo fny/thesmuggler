@@ -1,4 +1,4 @@
-from smuggler import smuggle
+from thesmuggler import smuggle
 
 doll = smuggle('inner_russian_doll.py')
 

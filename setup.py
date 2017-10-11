@@ -12,17 +12,17 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='smuggler',
+    name='thesmuggler',
     version='1.0.0',
 
-    py_modules=['smuggler'],
+    py_modules=['thesmuggler'],
     long_description=long_description,
     keywords='import modules packages files',
     license='MIT',
 
     author='Faraz Yashar',
     author_email='faraz.yashar@gmail.com',
-    url='https://github.com/fny/smuggler',
+    url='https://github.com/fny/thesmuggler',
 
     classifiers=[
         'Development Status :: 5 - Production/Stable',
