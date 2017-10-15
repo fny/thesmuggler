@@ -13,9 +13,10 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 setup(
     name='thesmuggler',
-    version='1.0.0',
+    version='1.0.1',
 
     py_modules=['thesmuggler'],
+    description='Sidestep import and load Python files as relative paths',
     long_description=long_description,
     keywords='import modules packages files',
     license='MIT',

@@ -11,7 +11,7 @@ The Smuggler 🚬
 
 Sidestep :code:`import` and load Python files as relative paths.
 
-Intended for one-off imports (e.g. global configuration). Currently, :code:`thesmuggler` can't import files that import other local packages, but you can :code:`thesmuggle` files that
+Intended for one-off imports (e.g. global configuration). Currently, :code:`thesmuggler` can't import files that import other local packages, but you can :code:`smuggle` files that
 have already smuggled other files.
 
 Tested and working on Python 2.7 and up.
