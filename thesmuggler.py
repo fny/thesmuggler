@@ -28,7 +28,7 @@ def smuggle(*args, **kwargs):
     source = kwargs.pop('source', None)
 
     # Be careful when moving the contents of this
-    module_file = args[0] if len(args) == 1 else source
+    module_file = args[0] if source is None else source
 
     module_name = os.path.splitext(os.path.basename(module_file))[0]
 
@@ -49,7 +49,7 @@ def smuggle(*args, **kwargs):
         module = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(module)
 
-    if len(args) == 1:
+    if len(args) == 0 or (len(args) == 1 and source is None):
         return module
 
     # Can't use a comprehension here since module wouldn't be in the
